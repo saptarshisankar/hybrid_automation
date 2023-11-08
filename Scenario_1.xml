@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="hybrid.utilities.CustomTestNgListener" />
+	</listeners>
+
+	<test thread-count="1" name="Test">
+		<classes>
+			<class name="hybridTest.web.LoginPageTest" />
+			<class name= "hybridTest.web.MyInfoPageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
